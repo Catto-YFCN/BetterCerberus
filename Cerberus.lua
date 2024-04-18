@@ -762,7 +762,7 @@ local function createOriginialElements()
 		toggleImage.Name = "ToggleImage"
 		toggleImage.Parent = centerBox
 		toggleImage.AnchorPoint = Vector2.new(0.5, 0.5)
-		toggleImage.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		toggleImage.BackgroundColor3 = Color3.fromRGB(120, 130, 220)
 		toggleImage.BackgroundTransparency = 0
 		toggleImage.BorderSizePixel = 0
 		toggleImage.Position = UDim2.new(0.5, 0, 0.5, 0)
@@ -877,7 +877,7 @@ local function createOriginialElements()
 		buttonCircle.Parent = centerCircle
 		buttonCircle.AnchorPoint = Vector2.new(.5,.5)
 		buttonCircle.BorderSizePixel = 0
-		buttonCircle.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		buttonCircle.BackgroundColor3 = Color3.fromRGB(120, 130, 220)
 		buttonCircle.Size = UDim2.new(0, 0, 0, 0)
 		buttonCircle.Position = UDim2.fromScale(.5,.5)
 
@@ -1135,7 +1135,7 @@ local function createOriginialElements()
 
 		slider.Name = "Slider"
 		slider.Parent = sliderInnerBackground
-		slider.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		slider.BackgroundColor3 = Color3.fromRGB(120, 130, 220)
 		slider.BorderSizePixel = 0
 		slider.Size = UDim2.new(0, 2, 1, 0)
 
@@ -1864,7 +1864,7 @@ local function createOriginialElements()
 
 		sliderBar.Name = "SliderBar"
 		sliderBar.Parent = valueSlider
-		sliderBar.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
+		sliderBar.BackgroundColor3 = Color3.fromRGB(120, 130, 220)
 		sliderBar.BorderSizePixel = 0
 		sliderBar.Size = UDim2.new(0, 3, 1, 0)
 
